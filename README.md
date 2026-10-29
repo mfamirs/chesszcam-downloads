@@ -20,7 +20,7 @@
 
 ChessZCam follows an over-the-board game through a camera. Record a game and analyse it later, or let it follow the
 board live. Every move is kept with its moment in the video, so you can check it, fix it and export it. It is made in
-Malaysia by a chess parent, tested at real tournaments, and it is in its early trial now.
+Malaysia by a chess parent, tested at real tournaments, and it is in public beta now.
 
 ## Try it free for 14 days
 
@@ -42,6 +42,7 @@ steps for Windows and Android.
 | **Analyse** | Optional Stockfish analysis on your own device: ten grades from Book move to Blunder, accuracy per player, opening names, comments in English and Malay. |
 | **Export** | PGN, and overlay video up to 4K: MP4 with the overlay burned in, transparent WebM or a PNG sequence; landscape or portrait. |
 | **Broadcast live** | The board, not the video, goes over your local network to ChessZCam Live, which drives a Browser Source in vMix or OBS. |
+| **Publish live (beta)** | During Detect Live, the moves the camera confirms go to [zonChess Live](https://zonchess.com/live/) or a Lichess Broadcast while the game is played. Organizers set up each board with a QR code. |
 | **Share with Viewer phones** | Parents and coaches outside the playing hall follow the live board on their own Android phone, on the same Wi-Fi or hotspot. |
 
 <p align="center">
@@ -57,8 +58,8 @@ steps for Windows and Android.
 
 | App | For | Download |
 |---|---|---|
-| **ChessZCam Studio** | Windows 10/11 (64-bit). Analyze video, record from a webcam or capture card, Detect Live, review, analysis and export, Viewer hosting, and the camera for ChessZCam Live. | [Download page](https://zonchess.com/chesszcam-download.html) |
-| **ChessZCam for Android** | Android 7 or newer, used with the phone held sideways. Record, analyze, Detect Live, Broadcast to the PC, Viewer, and Sync a PGN to a video. | [Download page](https://zonchess.com/chesszcam-download.html) |
+| **ChessZCam Studio** | Windows 10/11 (64-bit). Analyze video, record from a webcam or capture card, Detect Live, Live PGN, review, analysis and export, Viewer hosting, and the camera for ChessZCam Live. | [Download page](https://zonchess.com/chesszcam-download.html) |
+| **ChessZCam for Android** | Android 7 or newer, used with the phone held sideways. Record, analyze, Detect Live, Live PGN, Broadcast to the PC, Viewer, and Sync a PGN to a video. | [Download page](https://zonchess.com/chesszcam-download.html) |
 | **ChessZCam Live vMix** | Windows 10/11 (64-bit), on the same PC as vMix or OBS. The operator console and the on-air overlay, fed by the phone app or Studio. | [Download page](https://zonchess.com/chesszcam-download.html) |
 
 The apps tell you inside the app when a newer version is published, so you can keep up without checking this page.
@@ -66,13 +67,13 @@ When you use the phone with Live vMix, update both to the same release.
 
 ## Good to know
 
-- **Early trial.** These are pre-release builds for evaluation, improved after every tournament test. Keep your own
-  copy of important recordings and PGN.
+- **Public beta.** ChessZCam is still in stability testing, and we improve it with every release. Keep your own copy
+  of important recordings and PGN, and please tell us when something does not work the way you expect.
 - **Best-effort detection.** A steady stand, the whole board in view and good, even light make the biggest difference.
   When a move slips through, the correction tools help you fix it. See the
   [recording guide](https://zonchess.com/chess-recording-guide.html).
-- **Standard chess, one camera, one board.** Live broadcast and Viewer work on the same local network, not over the
-  internet.
+- **Standard chess, one camera, one board.** Live broadcast to vMix or OBS and Viewer work on the same local network.
+  Live PGN sends only the moves, over the internet, to zonChess Live or Lichess.
 - **Windows may warn the first time** ("Windows protected your PC"), because the apps are new: choose More info, then
   Run anyway. **The Android app is not on Google Play yet**: your browser downloads the APK and Android asks before
   installing it.
