@@ -11,6 +11,8 @@
   &nbsp;·&nbsp;
   <a href="#install">Install</a>
   &nbsp;·&nbsp;
+  <a href="https://www.youtube.com/@zonchessZ">Watch real games</a>
+  &nbsp;·&nbsp;
   <a href="https://zonchess.com/feedback.html?product=ChessZCam">Send feedback</a>
   &nbsp;·&nbsp;
   <a href="https://zonchess.com/ms/chesszcam-download.html">Bahasa Melayu</a>
@@ -53,6 +55,10 @@ It was built in Malaysia by an independent chess parent, shaped by six tournamen
 | A stream needs a live board without typing each move | The board position goes to ChessZCam Live, which drives an overlay in vMix or OBS |
 | Parents and coaches must stay outside the playing hall | Viewer Mode shows the live board on their own Android phone, on the same Wi-Fi or hotspot |
 | An organizer wants a featured board online while it is played | Live PGN (beta) sends confirmed moves to zonChess Live, a Lichess Broadcast or a website with a compatible PGN receiver |
+
+## See it on real games
+
+The [zonChess YouTube channel](https://www.youtube.com/@zonchessZ) has real tournament games processed with ChessZCam, from early versions to the latest. The footage comes from different cameras, angles and lenses, so you can judge for yourself what ChessZCam reads well and where it still falls short. Older videos show older versions. If you spot a wrong move, please tell us.
 
 ## Features
 
@@ -254,7 +260,7 @@ Run ChessZCam Live on the same Windows PC as vMix or OBS. Pair the phone app or 
 
 ### How accurate is ChessZCam?
 
-It depends on your setup and the quality of the video. No camera system reads every move perfectly, so plan for a quick review. Uncertain moves are flagged instead of guessed. A steady stand, the whole board in view and even light make the biggest difference.
+It depends on your setup and the quality of the video. No camera system reads every move perfectly, so plan for a quick review. Uncertain moves are flagged instead of guessed. A steady stand, the whole board in view and even light make the biggest difference. You can judge it yourself on the [zonChess YouTube channel](https://www.youtube.com/@zonchessZ).
 
 ### Can an arbiter use ChessZCam to settle a dispute?
 
