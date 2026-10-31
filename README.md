@@ -58,7 +58,7 @@ It was built in Malaysia by an independent chess parent, shaped by six tournamen
 
 ## See it on real games
 
-The [zonChess YouTube channel](https://www.youtube.com/@zonchessZ) has real tournament games processed with ChessZCam, from early versions to the latest. The footage comes from different cameras, angles and lenses, so you can judge for yourself what ChessZCam reads well and where it still falls short. Older videos show older versions. If you spot a wrong move, please tell us.
+The [zonChess YouTube channel](https://www.youtube.com/@zonchessZ) has real tournament games processed with ChessZCam, from early versions to the latest. To judge it, watch the full-length games: most were made with very little human correction. Some other videos are cut to keep them short. The footage comes from different cameras, angles and lenses, so you can see for yourself what ChessZCam reads well and where it still falls short. Older videos show older versions. If you spot a wrong move, please tell us.
 
 ## Features
 
