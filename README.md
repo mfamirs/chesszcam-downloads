@@ -52,7 +52,7 @@ It was built in Malaysia by an independent chess parent, shaped by six tournamen
 | Game footage is hard for viewers to follow | Overlay video adds the digital board, eval bar, verdicts and player names, in landscape or portrait |
 | A stream needs a live board without typing each move | The board position goes to ChessZCam Live, which drives an overlay in vMix or OBS |
 | Parents and coaches must stay outside the playing hall | Viewer Mode shows the live board on their own Android phone, on the same Wi-Fi or hotspot |
-| An organizer wants a featured board online while it is played | Live PGN (beta) sends confirmed moves to zonChess Live or a Lichess Broadcast |
+| An organizer wants a featured board online while it is played | Live PGN (beta) sends confirmed moves to zonChess Live, a Lichess Broadcast or a website with a compatible PGN receiver |
 
 ## Features
 
@@ -135,8 +135,8 @@ It was built in Malaysia by an independent chess parent, shaped by six tournamen
 
 ### 7. Publish live moves (beta)
 
-- **While the game is played:** during Detect Live, the moves the camera confirms go to [zonChess Live](https://zonchess.com/live/) or a Lichess Broadcast.
-- **Set up by the organizer:** for zonChess Live, paste the board link and token, or scan the board QR code. For a Lichess Broadcast, paste the round link and an access token.
+- **While the game is played:** during Detect Live, the moves the camera confirms go to [zonChess Live](https://zonchess.com/live/), a Lichess Broadcast or a website with a compatible PGN receiver.
+- **Set up by the organizer:** for zonChess Live, paste the board link and token, or scan the board QR code. For a Lichess Broadcast, paste the round link and an access token. For a website, paste the URL of an HTTPS endpoint that accepts raw PGN by POST and allows ChessZCam through CORS. A normal viewer page will not work.
 - **No video:** Live PGN sends the moves and game details (players, event, round, board and result) over the internet. Video and engine analysis are not sent.
 - **A clear indicator:** LIVE PGN over the video shows whether moves are being sent.
 - **Where:** ChessZCam Studio and the Android app.
@@ -169,7 +169,7 @@ Viewer Mode lets a parent or coach outside the playing hall follow the live digi
 | **For video editors** | Transparent WebM or a PNG sequence, in Studio |
 | **Projects** | A ChessZCam project file (`.review-project.json`) that holds a review |
 | **Live overlay** | A browser URL, used as a browser input in vMix or a Browser Source in OBS |
-| **Live moves (beta)** | zonChess Live or a Lichess Broadcast |
+| **Live moves (beta)** | zonChess Live, a Lichess Broadcast or an HTTPS PGN receiver |
 | **Chess** | Standard chess on an ordinary board and set, with one camera for one board |
 
 ## Install
@@ -292,6 +292,14 @@ No. Detection runs on your own device, and your source video is not uploaded for
 
 The trial is free for 14 days. After that ChessZCam is paid software: one payment, no subscription, with updates included for two years. Mobile is RM99 or USD24.99, Studio is RM149 or USD39.99, and Creator Live is RM249 or USD69.99. vMix and OBS are separate products and are not included. Sales are not open yet. The [ChessZCam page](https://zonchess.com/chesszcam.html#commercial) has the packages, the free waitlist and its early-supporter offer, and the licence terms are at [zonchess.com/terms.html](https://zonchess.com/terms.html#chesszcam-licence).
 
+### Is ChessZCam similar to idChess?
+
+In one way, yes: both read chess moves from a camera. If you found us while looking for an idChess alternative, you are very welcome here. We see ChessZCam as one more option for the chess community, and it can sit alongside the tools you already use.
+
+ChessZCam has taken its own path. It began with a parent following a child's chess journey, and it is built for chess content creators as well as parents, coaches and organizers. You can export a video with an overlay that follows every move, with or without Stockfish analysis, send the board to vMix or OBS, and publish Live PGN (beta) to zonChess Live, a Lichess Broadcast or a website with a compatible PGN receiver.
+
+Choose what suits your games and your team. idChess is a trademark of its owner, and zonChess is not affiliated with it.
+
 ### What is ChessZCam built on?
 
 ChessZCam grew from ChessCam, and it builds on open-source work such as Stockfish, chessops and TensorFlow.js. The [credits page](https://zonchess.com/credits.html) has the full list.
@@ -312,4 +320,4 @@ ChessZCam membaca langkah catur daripada kamera telefon atau webcam: rekod langk
 
 ChessZCam by [zonChess](https://zonchess.com) · Motivace Studio (MA0350336-V), Malaysia
 
-vMix, OBS and Lichess are the property of their respective owners. zonChess is independent and not affiliated with or endorsed by them.
+vMix, OBS, Lichess and idChess are the property of their respective owners. zonChess is independent and not affiliated with or endorsed by them.
