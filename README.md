@@ -207,8 +207,10 @@ Get-FileHash .\ChessZCam-Studio-1.2.8-Setup.exe -Algorithm SHA256
 
 ### ChessZCam for Android
 
-1. **Download the APK** on your phone. The app is not on Google Play yet.
-2. **Allow installs from your browser** when Android asks, then open the APK. If you installed a test build signed with a different key before, uninstall that one first.
+ChessZCam is on Google Play: [ChessZCam: Chess Video to PGN](https://play.google.com/store/apps/details?id=com.chesszcam.app). Installing from Google Play is the easiest way, and Play keeps the app up to date for you. The APK here is the same app, for phones without Google Play or if you prefer to install it yourself:
+
+1. **Download the APK** on your phone.
+2. **Allow installs from your browser** when Android asks, then open the APK. If you installed a test build signed with a different key before, uninstall that one first. A copy installed from Google Play keeps getting its updates from Play; the APK cannot update it.
 3. **Start the trial** with **Agree & start my 14-day trial**, then use the phone sideways. The app does not run in portrait.
 
 ### ChessZCam Live for vMix or OBS
@@ -219,7 +221,7 @@ Get-FileHash .\ChessZCam-Studio-1.2.8-Setup.exe -Algorithm SHA256
 4. **Use a network you control.** Many halls isolate guest devices on their Wi-Fi. A dedicated router or a phone hotspot is the reliable choice.
 5. **Rehearse before a public event,** and keep the phone and the PC on the same release.
 
-The apps tell you when a newer version is published. On Android, download the new APK, open it and choose Update. Your games, settings and trial stay on the phone.
+The apps tell you when a newer version is published. If you installed the APK, download the new APK, open it and choose Update. Your games, settings and trial stay on the phone. The Google Play version updates through Play.
 
 ### Help the camera see clearly
 
