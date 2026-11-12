@@ -184,8 +184,8 @@ Viewer Mode lets a parent or coach outside the playing hall follow the live digi
 
 | App | Runs on | Use it to | Latest release |
 |---|---|---|---|
-| **ChessZCam Studio** | Windows 10 or 11, 64-bit | Analyze video, record from a webcam or capture card, use Detect Live and Live PGN, review, analyze and export, host Viewer, and be the camera for ChessZCam Live | [Studio 1.3.0](https://github.com/mfamirs/chesszcam-downloads/releases/tag/studio-v1.3.0) |
-| **ChessZCam for Android** | Android 7 or newer (recording and MP4 export need Android 10), with the phone held sideways | Record, analyze, use Detect Live and Live PGN, broadcast to the PC, use Viewer, and sync a PGN to a video | [Android 1.28.7](https://github.com/mfamirs/chesszcam-downloads/releases/tag/android-v1.28.7) |
+| **ChessZCam Studio** | Windows 10 or 11, 64-bit | Analyze video, record from a webcam or capture card, use Detect Live and Live PGN, review, analyze and export, host Viewer, and be the camera for ChessZCam Live | [Studio 1.3.1](https://github.com/mfamirs/chesszcam-downloads/releases/tag/studio-v1.3.1) |
+| **ChessZCam for Android** | Android 7 or newer (recording and MP4 export need Android 10), with the phone held sideways | Record, analyze, use Detect Live and Live PGN, broadcast to the PC, use Viewer, and sync a PGN to a video | [Android 1.28.8](https://github.com/mfamirs/chesszcam-downloads/releases/tag/android-v1.28.8) |
 | **ChessZCam Live vMix** | Windows 10 or 11, 64-bit, on the same PC as vMix or OBS | Run the operator console and the on-air overlay for vMix or OBS, fed by the phone app or Studio | [Live 1.14.3](https://github.com/mfamirs/chesszcam-downloads/releases/tag/live-vmix-v1.14.3) |
 
 The [download page](https://zonchess.com/chesszcam-download.html) always shows the newest version of all three.
@@ -195,7 +195,7 @@ The [download page](https://zonchess.com/chesszcam-download.html) always shows t
 Every release lists the SHA-256 of each file. On Windows, open PowerShell in the folder with the file and run this, using the name of your file:
 
 ```powershell
-Get-FileHash .\ChessZCam-Studio-1.3.0-Setup.exe -Algorithm SHA256
+Get-FileHash .\ChessZCam-Studio-1.3.1-Setup.exe -Algorithm SHA256
 ```
 
 ### ChessZCam Studio
