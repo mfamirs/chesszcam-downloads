@@ -184,9 +184,9 @@ Viewer Mode lets a parent or coach outside the playing hall follow the live digi
 
 | App | Runs on | Use it to | Latest release |
 |---|---|---|---|
-| **ChessZCam Studio** | Windows 10 or 11, 64-bit | Analyze video, record from a webcam or capture card, use Detect Live and Live PGN, review, analyze and export, host Viewer, and be the camera for ChessZCam Live | [Studio 1.3.1](https://github.com/mfamirs/chesszcam-downloads/releases/tag/studio-v1.3.1) |
-| **ChessZCam for Android** | Android 7 or newer (recording and MP4 export need Android 10), with the phone held sideways | Record, analyze, use Detect Live and Live PGN, broadcast to the PC, use Viewer, and sync a PGN to a video | [Android 1.28.8](https://github.com/mfamirs/chesszcam-downloads/releases/tag/android-v1.28.8) |
-| **ChessZCam Live vMix** | Windows 10 or 11, 64-bit, on the same PC as vMix or OBS | Run the operator console and the on-air overlay for vMix or OBS, fed by the phone app or Studio | [Live 1.14.3](https://github.com/mfamirs/chesszcam-downloads/releases/tag/live-vmix-v1.14.3) |
+| **ChessZCam Studio** | Windows 10 or 11, 64-bit | Analyze video, record from a webcam or capture card, use Detect Live and Live PGN, review, analyze and export, host Viewer, and be the camera for ChessZCam Live | [Studio 1.3.2](https://github.com/mfamirs/chesszcam-downloads/releases/tag/studio-v1.3.2) |
+| **ChessZCam for Android** | Android 7 or newer (recording and MP4 export need Android 10), with the phone held sideways | Record, analyze, use Detect Live and Live PGN, broadcast to the PC, use Viewer, and sync a PGN to a video | [Android 1.28.9](https://github.com/mfamirs/chesszcam-downloads/releases/tag/android-v1.28.9) |
+| **ChessZCam Live vMix** | Windows 10 or 11, 64-bit, on the same PC as vMix or OBS | Run the operator console and the on-air overlay for vMix or OBS, fed by the phone app or Studio | [Live 1.14.5](https://github.com/mfamirs/chesszcam-downloads/releases/tag/live-vmix-v1.14.5) |
 
 The [download page](https://zonchess.com/chesszcam-download.html) always shows the newest version of all three.
 
@@ -195,7 +195,7 @@ The [download page](https://zonchess.com/chesszcam-download.html) always shows t
 Every release lists the SHA-256 of each file. On Windows, open PowerShell in the folder with the file and run this, using the name of your file:
 
 ```powershell
-Get-FileHash .\ChessZCam-Studio-1.3.1-Setup.exe -Algorithm SHA256
+Get-FileHash .\ChessZCam-Studio-1.3.2-Setup.exe -Algorithm SHA256
 ```
 
 ### ChessZCam Studio
@@ -298,7 +298,7 @@ No. Detection runs on your own device, and your source video is not uploaded for
 
 ### Is ChessZCam free?
 
-The trial is free for 14 days. After that ChessZCam is paid software: one payment, no subscription, with updates included for two years. Mobile is RM99 or USD24.99, Studio is RM149 or USD39.99, and Creator Live is RM249 or USD69.99. vMix and OBS are separate products and are not included. Sales are not open yet. The [ChessZCam page](https://zonchess.com/chesszcam.html#commercial) has the packages, the free waitlist and its early-supporter offer, and the licence terms are at [zonchess.com/terms.html](https://zonchess.com/terms.html#chesszcam-licence).
+The trial is free for 14 days. After that ChessZCam is paid software: one payment, no subscription, with updates included for two years. Mobile is RM99 or USD24.99, Studio is RM149 or USD39.99, and Creator Live is RM249 or USD69.99. vMix and OBS are separate products and are not included. Studio orders are now open on [zonchess.com](https://zonchess.com/chesszcam-order.html?package=studio). Mobile is bought inside the Android app through Google Play, and Creator Live follows after Studio. The [ChessZCam page](https://zonchess.com/chesszcam.html#commercial) has the packages, and the licence terms are at [zonchess.com/terms.html](https://zonchess.com/terms.html#chesszcam-licence).
 
 ### Is ChessZCam similar to idChess?
 
